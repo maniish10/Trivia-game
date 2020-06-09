@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="../css/AsgnCss.css">
+	
+	</head>
+	<body id="page">
+	<script type="text/javascript" src="../js/quizJs.js">
+		
+	</script>
+	<div id="mainId">
+		<h1 id="h">Quiz Game</h1>
+		
+				<table id="progress">
+					<tr>
+						<td><p class="circle" id="a"></p></td>
+						<td><p class="circle" id="b"></p></td>
+						<td><p class="circle" id="c"></p></td>
+					</tr>
+				</table>
+				
+			<div id="aba">
+			
+				<p id="questionDisplay"></p>
+				
+				<p id="optionsDisplay"></p>
+				
+				<p id="nextButton"></p>
+				
+			</div>
+			
+			<div id="row">
+			
+				<button onclick=help() type="button">Help!</button>
+				
+				<p id="reset"></p>
+	
+			</div>
+		
+	</div>
+	
+		<p id="q"></p>
+		
+		<div id="row">
+		
+			<div id="result"></div>
+			
+		</div>
+	</body>
+</html>
